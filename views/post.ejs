@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+
+    <form action="/submit" method="POST">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Title</label>
+            <input type="text" name="title" class="form-control" id="exampleFormControlInput1" placeholder='"Troublesome Weekend"'>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">What Happen?</label>
+            <textarea name="storyDetail" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleColorInput" class="form-label">Pick a Color that Represents the Event</label>
+            <input type="color" name="colorPick" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Color">
+        </div>
+        <button type="submit" value="OK" class="btn" style="background-color: #9D91FF; color: #fefefa; "onmouseover="this.style.backgroundColor='#47416F';" onmouseout="this.style.backgroundColor='#9D91FF';" >Post the Story</button>
+        <!-- <a href="/post"><button class="btn" style="border-color: #333333;background-color: #fefefa; color: #333333; "onmouseover="this.style.backgroundColor='#47416F';this.style.color='#fefefa';" onmouseout="this.style.backgroundColor='#fefefa';this.style.color='#333333';">Reset</button></a> -->
+    </form>
+
+<%- include("partials/footer.ejs") %>

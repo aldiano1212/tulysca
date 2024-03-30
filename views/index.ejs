@@ -1,0 +1,160 @@
+<%- include("partials/header.ejs") %>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/purple-astronaut.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Express Your Mind.</h1>
+            <p class="lead">Treasure your day experiences into a post</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="/post"><button type="button" class="btn btn-purple btn-lg px-4 me-md-2" style="background-color: #9D91FF; color: #fefefa; "onmouseover="this.style.backgroundColor='#47416F';" onmouseout="this.style.backgroundColor='#9D91FF';">Write a Story</button></a>
+            <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">About Tulysca</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy" viewBox="0 0 16 16" style="color:#9D91FF; width:2.5rem; height:2.5rem; stroke:#9D91FF; stroke-width:.5;margin-bottom:1rem;">
+              <path d="M11 2H9v3h2z"/>
+              <path d="M1.5 0h11.586a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13A1.5 1.5 0 0 1 1.5 0M1 1.5v13a.5.5 0 0 0 .5.5H2v-4.5A1.5 1.5 0 0 1 3.5 9h9a1.5 1.5 0 0 1 1.5 1.5V15h.5a.5.5 0 0 0 .5-.5V2.914a.5.5 0 0 0-.146-.353l-1.415-1.415A.5.5 0 0 0 13.086 1H13v4.5A1.5 1.5 0 0 1 11.5 7h-7A1.5 1.5 0 0 1 3 5.5V1H1.5a.5.5 0 0 0-.5.5m3 4a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V1H4zM3 15h10v-4.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5z"/>
+            </svg>
+            <h3 class="fs-2 text-body-emphasis">Preserve Your Memories</h3>
+            <p>Tulysca help you retain your memory in form of word so you can preserved it forever</p>
+          </div>
+          <div class="feature col">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16" style="color:#9D91FF; width:2.5rem; height:2.5rem; stroke:#9D91FF; stroke-width:.5;margin-bottom:1rem;">
+              <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+              <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+            </svg>
+            <h3 class="fs-2 text-body-emphasis">Pick the Event Color</h3>
+            <p>Pick a color to represent your story</p>
+          </div>
+          <div class="feature col">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-richtext" viewBox="0 0 16 16" style="color:#9D91FF; width:2.5rem; height:2.5rem; stroke:#9D91FF; stroke-width:.5;margin-bottom:1rem;">
+              <path d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208M5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+            <h3 class="fs-2 text-body-emphasis">See other's interesting story</h3>
+            <p>Coming soon!</p>
+          </div>
+        </div>
+      </div>
+    <% if (post === 0) { %>
+        <div>
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-5 fw-bold text-body-emphasis">Your Recent Story</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">You have no story yet</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="/post"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Post a Story</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <% } else if (post === 1) { %>
+          <div class="container">
+          <h2 class="pb-2 border-bottom">Your Recent Story</h2>
+          <div class="row mb-2">
+              <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0"><%= titlePost[titlePost.length - 1] %>
+                      <svg  class="little-book-icon bi bi-book-half" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=<%=colorPost[colorPost.length-1]%>>
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg>
+                    </h3>
+                    <div class="mb-1 text-body-secondary"><%= day.getDate() %> <span> - </span> <%= day.getMonth() + 1 %> <span> - </span> <%= day.getFullYear() %></div>
+                    <% if (descriptionPost[descriptionPost.length - 1].length <= 120 ) { %>
+                    <p class="card-text mb-auto"><%= descriptionPost[descriptionPost.length - 1] %></p>
+                    <% } else { %>
+                    <p class="card-text mb-auto"><%= descriptionPost[descriptionPost.length - 1].slice(0, 120) + " ..." %></p>
+                    <% } %>
+                   
+                    <a href="/story" class="icon-link gap-1 icon-link-hover stretched-link" style="color: #5350B4; text-decoration-color: #5350B4;">
+                      Continue reading
+                      <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                  </a>
+                  </div>
+                  <div class="col-auto d-none d-lg-block">
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill=<%= colorPost[colorPost.length - 1] %>></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <a href="/profile" style="color: #5350B4; text-decoration-color: #5350B4;"></h4>See all your stories</a>
+            </div>
+    <% } else if (post > 1) { %>
+        <div class="container">
+        <h2 class="pb-2 border-bottom">Your Recent Story</h2>
+        <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative recent-story-container">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <h3 class="mb-0"><%= titlePost[titlePost.length - 2] %>
+                    <svg  class="little-book-icon bi bi-book-half" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=<%=colorPost[colorPost.length-1]%>>
+                      <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                    </svg>
+                  </h3>
+                  <div class="mb-1 text-body-secondary"><%= day.getDate() %> <span> - </span> <%= day.getMonth() + 1 %> <span> - </span> <%= day.getFullYear() %></div>
+                  <% if (descriptionPost[descriptionPost.length - 2].length <= 120 ) { %>
+                    <p class="card-text mb-auto"><%= descriptionPost[descriptionPost.length - 2].slice(0, 120) %></p>
+                    <% } else { %>
+                    <p class="card-text mb-auto"><%= descriptionPost[descriptionPost.length - 2].slice(0, 120) + " ..." %></p>
+                    <% } %>
+                  <a href="/story2" id="post2" class="icon-link gap-1 icon-link-hover stretched-link" style="color: #5350B4; text-decoration-color: #5350B4;">
+                    Continue reading
+                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="100" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill=<%= colorPost[colorPost.length - 2] %>></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative recent-story-container">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <h3 class="mb-0"><%= titlePost[titlePost.length - 1] %>
+                    <svg  class="little-book-icon bi bi-book-half" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill=<%=colorPost[colorPost.length-1]%>>
+                      <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                    </svg>
+                  </h3>
+                  <div class="mb-1 text-body-secondary"><%= day.getDate() %> <span> - </span> <%= day.getMonth() + 1 %> <span> - </span> <%= day.getFullYear() %></div>
+                  <% if (descriptionPost[descriptionPost.length - 1].length <= 120 ) { %>
+                    <p class="card-text mb-auto"><%= descriptionPost[descriptionPost.length - 1].slice(0, 120) %></p>
+                    <% } else { %>
+                    <p class="card-text mb-auto"><%= descriptionPost[descriptionPost.length - 1].slice(0, 120) + " ..." %></p>
+                    <% } %>
+                  <a href="/story" class="icon-link gap-1 icon-link-hover stretched-link" style="color: #5350B4; text-decoration-color: #5350B4;">
+                    Continue reading
+                    <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                  </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <svg class="bd-placeholder-img" width="100" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill=<%= colorPost[colorPost.length - 1] %>></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <a href="/profile" style="color: #5350B4; text-decoration-color: #5350B4;"></h4>See all your stories</a>
+          </div>
+          
+    <% }; %>
+        
+   
+
+
+  </main>
+  <footer>
+      <p>Copyright © 2024</p>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

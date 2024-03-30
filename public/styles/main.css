@@ -1,0 +1,58 @@
+*, *::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1px) {
+    footer {
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .no-story {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 5rem;
+    }
+    form {
+        margin-inline: auto;
+        width: min(1024px, 80%)
+    }
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: auto;
+        padding-top: 5rem;
+    }
+    .profile-container .profile-information > h1 {
+        text-align: center;
+    }
+    .profile-story-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 2rem;
+        width: 80%;
+    }
+    .recent-story-container {
+        height: 250px;
+    }
+    .profile-no-story-container {
+        width: 100%;
+    }
+    .shape-of-post {
+        margin-bottom: 4rem;
+    }
+    .another-story-button {
+        color: #47416F;
+    }
+    .individual-post {
+        margin-inline: auto;
+        width: 80%;
+    }
+}
